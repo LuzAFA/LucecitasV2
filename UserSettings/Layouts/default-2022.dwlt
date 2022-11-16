@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 117
+  controlID: 64
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 139
+  controlID: 52
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 116
+  controlID: 53
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,22 +396,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/UAV Trident/Prefab
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/UAV Trident/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucya\Taller\LucecitasV2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 473}
-    m_SelectedIDs: 98d00000
-    m_LastClickedID: 53400
-    m_ExpandedIDs: 000000001ad000001cd000001ed0000020d0000022d0000024d0000026d0000028d000002ad000002cd000002ed0000030d0000000ca9a3b
+    scrollPos: {x: 0, y: 597}
+    m_SelectedIDs: 380d0300
+    m_LastClickedID: 199992
+    m_ExpandedIDs: 0000000032d0000034d0000036d0000038d000003ad000003cd000003ed0000040d0000042d0000044d0000046d0000048d00000aed000003e0d030000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001ad000001cd000001ed0000020d0000022d0000024d0000026d0000028d000002ad000002cd000002ed0000030d00000
+    m_ExpandedIDs: 0000000032d0000034d0000036d0000038d000003ad000003cd000003ed0000040d0000042d0000044d0000046d0000048d00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -566,10 +566,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 467}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff7a820000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 1e05ffff
+      m_LastClickedID: -64226
+      m_ExpandedIDs: e625ffff34fbffff86820000a4a7000010c90000d83a020074450200929c020004090300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -851,9 +851,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -59.818756, y: 46.99001, z: -22.522038}
+    m_Target: {x: -77.92799, y: 56.689198, z: 155.15637}
     speed: 2
-    m_Value: {x: -59.82013, y: 46.990803, z: -22.52209}
+    m_Value: {x: -77.924866, y: 56.686012, z: 155.16048}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -899,13 +899,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.077764265, y: -0.82286423, z: 0.5513721, w: -0.11535701}
+    m_Target: {x: 0.27867985, y: 0.66589725, z: -0.2951841, w: 0.626335}
     speed: 2
-    m_Value: {x: -0.077918686, y: -0.82184255, z: 0.55247563, w: -0.11521319}
+    m_Value: {x: 0.27905107, y: 0.66478723, z: -0.29469052, w: 0.627173}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 1.3874695
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 1.2224401
   m_Ortho:
     m_Target: 0
     speed: 2
