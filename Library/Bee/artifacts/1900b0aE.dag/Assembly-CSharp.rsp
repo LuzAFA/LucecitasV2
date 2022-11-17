@@ -347,6 +347,7 @@
 "Assets/ExternalAssets/Laterns and candles/scripts/ExtendedFlycam.cs"
 "Assets/Scripts/ChikensPatrol.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/RandomPatrol.cs"
 -langversion:9.0
 
 /deterministic
