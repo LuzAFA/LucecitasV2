@@ -21,7 +21,7 @@ public class RandomPatrol : MonoBehaviour
         agent.speed = Random.Range(5, 20);
         agent.stoppingDistance = Random.Range(1, 3); ;
 
-        InvokeRepeating("cambioAleatorioDestino", 5, 5);
+        InvokeRepeating("cambioAleatorioDestino", 5, 15);
 
     }
 
