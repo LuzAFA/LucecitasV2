@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Followers : MonoBehaviour
+public class FollowersController : MonoBehaviour
 {
+
     public float speed;
     public NavMeshAgent agent;
     public Transform pos;
@@ -17,7 +18,7 @@ public class Followers : MonoBehaviour
         rig = GetComponent<Rigidbody>();
         coll = GetComponent<CapsuleCollider>();
         agent.SetDestination(pos.position);
-        agent.stoppingDistance = Random.Range(1, 3); ;
+        agent.stoppingDistance = Random.Range(2.5f, 5); ;
         agent.speed = Random.Range(2, 5); ;
     }
     void Update()
@@ -58,5 +59,4 @@ public class Followers : MonoBehaviour
 
         }
     }
-
 }

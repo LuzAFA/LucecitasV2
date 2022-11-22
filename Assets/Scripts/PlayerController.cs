@@ -5,10 +5,10 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
-    public NavMeshAgent player;
+    NavMeshAgent player;
     Vector3 newPosition;
-    Transform leftDoor;
-    Transform RigthDoor;
+    public Transform leftDoor;
+    public Transform rigthDoor;
 
     private void Start()
     {
@@ -38,7 +38,10 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("toco la llave");
             leftDoor.Rotate(0, 90, 0); 
-            RigthDoor.Rotate(0, -90, 0); 
+            rigthDoor.Rotate(0, -90, 0);
+            Destroy(collision.gameObject);
         }
+
+
     }
 }
